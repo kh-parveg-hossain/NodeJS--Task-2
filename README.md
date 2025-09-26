@@ -1,3 +1,28 @@
+
+# 🚀 Real-Time Cryptocurrency Price Monitoring & Alerting System
+
+A real-time cryptocurrency price monitoring and alerting system built with **Node.js**, **TypeScript**, **WebSocket**, **Redis**, and **Nodemailer**.  
+It provides live crypto price updates, lets users set alerts, and uses caching for optimized performance.  
+
+---
+
+## 📌 Features
+
+- 🔄 **Real-time Monitoring** – Continuously fetch and update cryptocurrency prices.
+- 🚨 **Alerting System** – Users can set alert criteria and receive email notifications.
+- ⚡ **Caching Mechanism** – Uses **Redis** to store recent price updates and reduce API overhead.
+- 📧 **Email Notifications** – Alert users instantly when their conditions are met.
+- 🛠 **Clean Architecture** – Organized with controllers, routes, middlewares, and utils.
+
+---
+
+## 📂 Project Structure
+
+
+
+## Usage/Examples
+
+```bash
 my-app/
  ├── src/
  │   ├── server.ts            # Server Entry Point
@@ -31,45 +56,15 @@ my-app/
  ├── package.json             # Dependencies & scripts
  └── .gitignore               # Ignored files
 
-npm run dev   # for development (ts-node)
-npm run build # compile TypeScript
-npm start     # run compiled JS from dist/
 
-📡 API Endpoints
-Method	Endpoint	Description
-GET	/	Test route / get user
-GET	/prices	Get all cached crypto prices
-POST	/prices/:symbol	Get price for a specific symbol
-POST	/alerts	Create a new price alert
-GET	/alerts/list	List all active alerts
-📧 Alert System
+```
+## Tech Stack
 
-Users set price conditions.
+**Client:** React, TailwindCSS,axios
 
-When condition matches → system triggers Nodemailer to send an email alert.
+**Server:** Node.js + TypeScript,Express.js,
+WebSocket ,MongoDB,Redis,Nodemailer
 
-Alerts stored in DB for persistence.
 
-🛠 Tech Stack
 
-Backend: Node.js, TypeScript, Express.js
 
-Database: MongoDB (Mongoose / Prisma / Sequelize)
-
-Cache: Redis
-
-Email: Nodemailer
-
-Error Handling: Custom middlewares & async wrappers
-
-🔮 Future Enhancements
-
-Add authentication & user management.
-
-Frontend dashboard (React.js).
-
-Support multiple crypto APIs & WebSocket providers.
-
-Dockerize for easy deployment.
-
-✍️ Author: Kh Parveg Hossain
