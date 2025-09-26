@@ -5,6 +5,11 @@ A real-time cryptocurrency price monitoring and alerting system built with **Nod
 It provides live crypto price updates, lets users set alerts, and uses caching for optimized performance.  
 
 ---
+## redis daatbase
+
+![App Screenshot](https://raw.githubusercontent.com/kh-parveg-hossain/NodeJS--Task-2/refs/heads/main/Screenshot%202025-09-27%20000420.png)
+## Frontend
+![App Screenshot](https://raw.githubusercontent.com/kh-parveg-hossain/NodeJS--Task-2/refs/heads/main/Screenshot%202025-09-27%20000451.png)
 
 ## 📌 Features
 
