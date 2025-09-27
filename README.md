@@ -30,7 +30,8 @@ It provides live crypto price updates, lets users set alerts, and uses caching f
 ```bash
 my-app/
  ├── src/
- │   ├── server.ts            # Server Entry Point
+ │   ├── server.ts             # Server Entry Point
+ │   ├── binanceSocket.ts      # websoket     
  │   │
  │   ├── config/              # Configuration Files
  │   │   └── config.ts
